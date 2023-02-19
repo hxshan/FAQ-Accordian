@@ -35,7 +35,8 @@ body{
 .image-container{
     display: flex;
     flex-direction: column;
-    min-width: 235px
+    min-width: 235px;
+    max-width: 235px;
 }
 .forground img{
     width: 100%;
@@ -130,6 +131,7 @@ font-size: 2rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-width: 235px;
         max-width: 20rem;
         max-height:fit-content;
         translate: 0% 20%;
